@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alemdar Oto Radyatör Ürün Tanıtım</title>
+    <title>Alemdar Radyatör</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/css.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
@@ -23,6 +22,7 @@
                 position: location,
                 map: map
             });
+
             // Haritaya tıklandığında Google Maps'e yönlendir
             map.addListener('click', function() {
                 window.open('https://maps.app.goo.gl/v1hwvFCqaKKobKdq9', '_blank');
@@ -30,17 +30,17 @@
         }
     </script>
 </head>
-<body onload="initMap()">
+<body onload="initMap()" background-url "">
     <header class="bg-bordo text-white alt-cizgi siyah-cizgi">
         <div class="logo-konteyner">
             <div> <img class="images-logo" src="images-logo/Adsız tasarım (21).png" height="200"></div>
         </div>
-        
 
         <div class="baslik-paragraf">
             <h1 class="baslik-text"><b>ALEMDAR RADYATÖR</b></h1>
             <p class="alt-text"><b>Sağlam ve Kaliteli<br>Isıtma ve Soğutma Sistemleri</b></p>
         </div>
+    </div>
     </header>
 
     <div class="desktop-menu-konteyner d-none d-md-flex justify-content-end menuler-arasi-bosluk">
@@ -72,8 +72,9 @@
     </div>
 
 
-    <div class="container mt-4">
-        <h2 class="display-4"><b>Ürünlerimiz</b></h2>
+    <div class="container mt-4 "> 
+        <div><h2 class="display-4"><b>Ürünlerimiz</b></h2></div>
+
         <div class="row">
             <!-- İlk Satır -->
             <div class="col-md-3 mb-4">
@@ -82,7 +83,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Su Radyatörü</b></h5>
                         <p class="card-text">Motorun soğutulması için kullanılan temel bileşen.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -92,7 +92,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Yağ Radyatörü</b></h5>
                         <p class="card-text">Motor yağını soğutarak verimli yağlama sağlar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +101,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Intercooler</b></h5>
                         <p class="card-text">Turboşarjlı motorlar için sıkıştırılmış havayı soğutur.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +110,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>After Cooler</b></h5>
                         <p class="card-text">Sıkıştırılan havayı soğutarak daha verimli bir çalışma sağlar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -126,7 +123,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Klima Radyatörü</b></h5>
                         <p class="card-text">Klima sisteminin soğutucu gazını sıvı hale getirir.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -136,7 +132,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Kalorifer Radyatörü</b></h5>
                         <p class="card-text">Araç içi ısıtma için kullanılır.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -146,7 +141,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Jeneratör Radyatörü</b></h5>
                         <p class="card-text">Jeneratör motorlarını soğutmak için kullanılır.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -156,7 +150,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Evaporatör</b></h5>
                         <p class="card-text">Soğutma sistemlerinde ısıyı emer ve soğutma sağlar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -170,7 +163,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Eşanjör</b></h5>
                         <p class="card-text">İki akışkan arasındaki ısı transferini sağlar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -180,7 +172,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Motor Yağ Soğutucusu</b></h5>
                         <p class="card-text">Motor yağını ideal sıcaklıkta tutar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -190,7 +181,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Retarder Yağ Soğutucusu</b></h5>
                         <p class="card-text">Ağır araçlarda yavaşlatıcı sistemlerin yağını soğutur.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -200,7 +190,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Radyatör Davlumbazı</b></h5>
                         <p class="card-text">Hava akışını radyatöre yönlendirir.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -214,7 +203,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Radyatör Kazanı</b></h5>
                         <p class="card-text">Soğutma sıvısını barındırır ve radyatör içinde dolaşmasını sağlar.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -224,7 +212,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Radyatör Kapağı ve Hamilleri</b></h5>
                         <p class="card-text">Radyatör basıncını düzenleyen kapaklar ve montaj elemanları.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -234,7 +221,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>İmpulsat Deposu</b></h5>
                         <p class="card-text">Soğutma sıvısının genişlemesini ve daralmasını dengeleyen genleşme tankı.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -244,7 +230,6 @@
                     <div class="card-body">
                         <h5 class="card-title"><b>Pervane</b></h5>
                         <p class="card-text">Radyatör üzerinden hava akışı sağlayarak soğutma performansını artırır.</p>
-                        <a href="#" class="btn btn-ana">Detaylı İncele</a>
                     </div>
                 </div>
             </div>
@@ -279,9 +264,15 @@
                 <div class="col-md-4 mb-3">
                     <h5>İletişim</h5>
                     <ul class="list-unstyled">
-                        <li>Adres: Horozluhan Mahallesi, Gülçiçek Sokak, No:2, 42070 Selçuklu/Konya </li>
-                        <li>Telefon: +90 539 210 92 71</li>
-                        <li>Email: alemdar.radyator@hotmail.com.com</li>
+                        <li><svg xmlns="./images-logo/globe.svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z"/>
+                            </svg> Adres: Horozluhan Mahallesi, Gülçiçek Sokak, No:2, 42070 Selçuklu/Konya</li>
+                        <li><svg xmlns="./images-logo/telephone-fill.svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                            </svg> Telefon: +90 539 210 92 71</li>
+                        <li><svg xmlns="./images-logo/envelope-fill.svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                            </svg> Email: alemdar.radyator@hotmail.com </li>
                     </ul>
                 </div>
                 <hr class="bg-light w-100">
@@ -289,6 +280,7 @@
             <div class="text-center mt-3">
                 <p>&copy; 2024 Alemdar Oto Radyatör. Tüm hakları saklıdır.</p>
             </div>
+            <div></div>
         </div>
     </footer>
 
