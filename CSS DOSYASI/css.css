@@ -1,0 +1,271 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Markazi Text', serif;
+
+}
+
+.btn-ana {
+    background-color: #FF4500; /* Koyu Turuncu Renk */
+    border-color: #FF4500; /* Koyu Turuncu Renk */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* btn-ana mobil ve masaüstü boyutları */
+@media (max-width: 480px) { /* Mobil */
+    .btn-ana {
+        font-size: 14px; /* Mobil buton yazı boyutu */
+        padding: 8px 16px; /* Mobil buton iç boşlukları */
+    }
+}
+
+@media (min-width: 481px) { /* Tablet ve üstü */
+    .btn-ana {
+        font-size: 18px; /* Masaüstü buton yazı boyutu */
+        padding: 10px 20px; /* Masaüstü buton iç boşlukları */
+    }
+}
+
+.btn-ana:hover {
+    background-color: #FFD700; /* Altın Sarısı */
+    border-color: #FFD700; /* Altın Sarısı */
+    color: black;
+}
+
+/* Menü butonları için lacivert renk ve hover */
+.btn-menu {
+    background-color: #000080; /* Lacivert Renk */
+    border-color: #000080; /* Lacivert Renk */
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* btn-menu mobil ve masaüstü boyutları */
+@media (max-width: 480px) { /* Mobil */
+    .btn-menu {
+        font-size: 14px; /* Mobil buton yazı boyutu */
+        padding: 8px 16px; /* Mobil buton iç boşlukları */
+    }
+}
+
+@media (min-width: 481px) { /* Tablet ve üstü */
+    .btn-menu {
+        font-size: 18px; /* Masaüstü buton yazı boyutu */
+        padding: 10px 20px; /* Masaüstü buton iç boşlukları */
+    }
+}
+
+.btn-menu:hover {
+    background-color: #FFD700; /* Altın Sarısı */
+    border-color: #FFD700; /* Altın Sarısı */
+    color: black;
+}
+
+.bg-bordo {
+    background-color: #800000; /* Bordo Renk */
+    padding: 0; /* Padding Kaldırıldı */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* İçerikleri sola ve ortaya hizalama */
+}
+
+.ozel-navbar {
+    background-color: #ffffff; /* Bordo Renk */
+    color: white;
+}
+
+.ozel-navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.ozel-navbar .navbar-nav .nav-link:hover {
+    color: #ffffff; /* Altın Sarısı */
+}
+
+.menu-konteyner {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-box {
+    background-color: #000080; /* Lacivert Renk */
+    border: 2px solid #000080; /* Lacivert Renk */
+    border-radius: 10px; /* Köşe yuvarlama */
+    padding: 10px;
+    text-align: center;
+    margin: 5px; /* Çeyrek birim boşluk */
+}
+
+.menu-box a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu-box a:hover {
+    color: #FFD700; /* Altın Sarısı */
+}
+
+.logo-konteyner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Sol tarafa hizalama */
+}
+
+.logo-konteyner svg {
+    margin-left: 45px; /* Sol kenara boşluk */
+    width: 200px; /* Logo genişliği */
+    height: 200px; /* Logo yüksekliği */
+}
+
+/* Başlık ve alt metin için stil */
+.baslik-paragraf {
+    text-align: center;
+    margin: 15px 0; /* Başlık ve paragraf arasında boşluk */
+    flex-grow: 1;
+    margin-right: 55px;
+}
+
+.baslik-text {
+    display: block;
+    width: 100%;
+    font-size: 4rem; /* Yazı boyutunu büyütme */
+    font-weight: bold;
+    font-family: "Linden Hill", serif;
+}
+
+.alt-text {
+    display: block;
+    width: 100%;
+    font-size: 1rem; /* Yazı boyutunu büyütme */
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+/* Şeffaf jumbotron */
+.ozel-jumbotron {
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+    background-color: rgba(187, 187, 187, 0.205); /* Şeffaflık için arka plan rengi */
+    opacity: 0.9; /* Şeffaflık seviyesi */
+}
+img.responsive-img { 
+    max-width: 100%; 
+    height: auto;
+}
+
+/* Mobil (319px - 480px) */
+@media (max-width: 480px) {
+    .bg-bordo {
+        flex-direction: column; /* Mobil görünüm için dikey hizalama */
+        align-items: center; /* Ortaya hizalama */
+    }
+    .logo-konteyner, .baslik-paragraf {
+        justify-content: center; /* Logo ve başlık ortada */
+        text-align: center; /* Başlık ortada */
+        margin-right: 0; /* Mobilde sağa hizalanmayı kaldırma */
+    }
+    .logo-konteyner svg {
+        margin-left: 20px; /* Sol kenara hafif kayma */
+    }
+    .dropdown {
+        display: block;
+        text-align: right;
+        margin: 5px; /* Çeyrek birim boşluk */
+    }
+    .menu-konteyner {
+        display: none;
+    }
+    img.responsive-img {
+        max-width: 100%; /* Mobil cihazlar için genişlik ayarı */
+    }
+}
+
+/* Tablet/iPad (481px - 1200px) */
+@media (min-width: 481px) and (max-width: 1200px) {
+    .dropdown {
+        display: block;
+        text-align: right;
+        margin: 5px; /* Çeyrek birim boşluk */
+    }
+    .menu-konteyner {
+        display: none;
+    }
+    img.responsive-img {
+        max-width: 100%; /* Tablet cihazlar için genişlik ayarı */
+    }
+}
+
+/* Dizüstü Bilgisayar (1201px - 1600px) */
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .desktop-menu-konteyner {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ozel-jumbotron {
+        width: 100%;
+        margin-right: 0;
+    }
+    img.responsive-img {
+        max-width: 100%; /* Dizüstü cihazlar için genişlik ayarı */
+    }
+}
+
+/* Masaüstü (1601px ve üzeri) */
+@media (min-width: 1601px) {
+    .desktop-menu-konteyner {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .ozel-jumbotron {
+        width: 100%;
+        margin-right: 0;
+    }
+    img.responsive-img {
+        max-width: 100%; /* Masaüstü cihazlar için genişlik ayarı */
+    }
+}
+
+.oleo-script-swash-caps-regular {
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.oleo-script-swash-caps-bold {
+    font-family: "Oleo Script Swash Caps", system-ui;
+    font-weight: 700;
+    font-style: normal;
+}
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: bold;
+  }
+
+/* Harita Stil Ayarları */
+#map-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Harita yüksekliği */
+    margin-top: 20px;
+}
+
+#map {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    border-width: 0;
+    margin: 0;
+    cursor: url(https://maps.gstatic.com/mapfiles/openhand_8_8.cur), default;
+    touch-action: pan-x pan-y;
+}
+
+.gm-style {
+    font: 400 11px Roboto, Arial, sans-serif;
+    text-decoration: none;
+}
