@@ -5,69 +5,69 @@ body {
 }
 
 .btn-ana {
-    background-color: #FF4500; /* Koyu Turuncu Renk */
-    border-color: #FF4500; /* Koyu Turuncu Renk */
+    background-color: #FF4500;
+    border-color: #FF4500;
     color: white;
     transition: background-color 0.3s ease;
 }
 
-/* btn-ana mobil ve masaüstü boyutları */
+
 @media (max-width: 480px) { /* Mobil */
     .btn-ana {
-        font-size: 14px; /* Mobil buton yazı boyutu */
-        padding: 8px 16px; /* Mobil buton iç boşlukları */
+        font-size: 14px;
+        padding: 8px 16px;
     }
 }
 
-@media (min-width: 481px) { /* Tablet ve üstü */
+@media (min-width: 481px) { /* Tablet  */
     .btn-ana {
-        font-size: 18px; /* Masaüstü buton yazı boyutu */
-        padding: 10px 20px; /* Masaüstü buton iç boşlukları */
+        font-size: 18px;
+        padding: 10px 20px;
     }
 }
 
 .btn-ana:hover {
-    background-color: #FFD700; /* Altın Sarısı */
-    border-color: #FFD700; /* Altın Sarısı */
+    background-color: #FFD700;
+    border-color: #FFD700;
     color: black;
 }
 
-/* Menü butonları için lacivert renk ve hover */
+
 .btn-menu {
-    background-color: #000080; /* Lacivert Renk */
-    border-color: #000080; /* Lacivert Renk */
+    background-color: #000080;
+    border-color: #000080;
     color: white;
     transition: background-color 0.3s ease;
 }
 
-/* btn-menu mobil ve masaüstü boyutları */
+
 @media (max-width: 480px) { /* Mobil */
     .btn-menu {
-        font-size: 14px; /* Mobil buton yazı boyutu */
-        padding: 8px 16px; /* Mobil buton iç boşlukları */
+        font-size: 14px;
+        padding: 8px 16px; 
     }
 }
 
-@media (min-width: 481px) { /* Tablet ve üstü */
+@media (min-width: 481px) { /* Tablet */
     .btn-menu {
-        font-size: 18px; /* Masaüstü buton yazı boyutu */
-        padding: 10px 20px; /* Masaüstü buton iç boşlukları */
+        font-size: 18px;
+        padding: 10px 20px;
     }
 }
 
 .btn-menu:hover {
-    background-color: #FFD700; /* Altın Sarısı */
-    border-color: #FFD700; /* Altın Sarısı */
+    background-color: #FFD700;
+    border-color: #FFD700;
     color: black;
 }
 
 .bg-bordo {
-    background-color: #800000; /* Bordo Renk */
-    padding: 0; /* Padding Kaldırıldı */
+    background-color: #800000;
+    padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; /* İçerikleri sola ve ortaya hizalama */
+    justify-content: space-between;
 }
 
 .menu-konteyner {
@@ -76,12 +76,12 @@ body {
 }
 
 .menu-box {
-    background-color: #000080; /* Lacivert Renk */
-    border: 2px solid #000080; /* Lacivert Renk */
-    border-radius: 10px; /* Köşe yuvarlama */
+    background-color: #000080;
+    border: 2px solid #000080;
+    border-radius: 10px; 
     padding: 10px;
     text-align: center;
-    margin: 5px; /* Çeyrek birim boşluk */
+    margin: 5px; 
 }
 
 .menu-box a {
@@ -90,32 +90,32 @@ body {
 }
 
 .menu-box a:hover {
-    border-radius: 10px; /* Köşe yuvarlama */
-    border-radius: 10px; /* Köşe yuvarlama */
+    border-radius: 10px;
+    border-radius: 10px;
     padding: 10px;
     text-align: center;
-    margin: 5px; /* Çeyrek birim boşluk */
+    margin: 5px;
 }
 
 .logo-konteyner {
     display: flex;
     align-items: center;
-    justify-content: flex-start; /* Sol tarafa hizalama */
+    justify-content: flex-start;
 }
 
 .images-logo {
-    margin-left: 45px; /* Sol kenara boşluk */
-    width: 200px; /* Logo genişliği */
+    margin-left: 45px; 
+    width: 200px; 
     height: 100px;
-    background-color: #ffffff; /* Logo yüksekliği */
-    border-radius: 100% ; /* Elips şekli için oran */
-    border: 1px solid #000000; /* Siyah bir çerçeve ekler */
+    background-color: #ffffff;
+    border-radius: 100% ; 
+    border: 1px solid #000000; 
 }
 
-/* Başlık ve alt metin için stil */
+
 .baslik-paragraf {
     text-align: center;
-    margin: 15px 0; /* Başlık ve paragraf arasında boşluk */
+    margin: 15px 0; 
     flex-grow: 1;
     margin-right: 55px;
 }
@@ -123,7 +123,7 @@ body {
 .baslik-text {
     display: block;
     width: 100%;
-    font-size: 4rem; /* Yazı boyutunu büyütme */
+    font-size: 4rem;
     font-weight: bold;
     font-family: "Linden Hill", serif;
 }
@@ -131,19 +131,19 @@ body {
 .alt-text {
     display: block;
     width: 100%;
-    font-size: 1rem; /* Yazı boyutunu büyütme */
+    font-size: 1rem;
     font-weight: normal;
     margin-top: 15px;
 }
 
 .iletişim-text {
-    background-color: rgba(187, 187, 187, 0.205); /* Şeffaflık için arka plan rengi */
-    opacity: 0.9; /* Şeffaflık seviyesi */
+    background-color: rgba(187, 187, 187, 0.205);
+    opacity: 0.9;
 
 }
 .card {
-    background-color: rgba(187, 187, 187, 0.205); /* Şeffaflık için arka plan rengi */
-    opacity: 0.9; /* Şeffaflık seviyesi */
+    background-color: rgba(187, 187, 187, 0.205);
+    opacity: 0.9;
 }
 
 /* Şeffaf jumbotron */
@@ -152,61 +152,61 @@ body {
     margin-right: -15px;
     padding-left: 15px;
     padding-right: 15px;
-    background-color: rgba(187, 187, 187, 0.205); /* Şeffaflık için arka plan rengi */
-    opacity: 0.9; /* Şeffaflık seviyesi */
+    background-color: rgba(187, 187, 187, 0.205);
+    opacity: 0.9;
 }
 img.responsive-img { 
     max-width: 100%; 
     height: auto;
 }
 
-/* Mobil (319px - 480px) */
+
 @media (max-width: 480px) {
     .bg-bordo {
-        flex-direction: column; /* Mobil görünüm için dikey hizalama */
-        align-items: center; /* Ortaya hizalama */
-        padding: 10px; /* İç boşluk ekleme */
+        flex-direction: column;
+        align-items: center;
+        padding: 10px; 
     }
     .logo-konteyner, .baslik-paragraf {
-        justify-content: center; /* Logo ve başlık ortada */
-        text-align: center; /* Başlık ortada */
-        margin-right: 0; /* Mobilde sağa hizalanmayı kaldırma */
-        padding: 5px; /* İç boşluk ekleme */
+        justify-content: center;
+        text-align: center;
+        margin-right: 0;
+        padding: 5px;
     }
     .logo-konteyner svg {
-        margin-left: 20px; /* Sol kenara hafif kayma */
+        margin-left: 20px;
     }
     .dropdown {
         display: block;
         text-align: right;
-        margin: 5px; /* Çeyrek birim boşluk */
+        margin: 5px;
     }
     .menu-konteyner {
         display: none;
     }
     img.responsive-img {
-        max-width: 100%; /* Mobil cihazlar için genişlik ayarı */
+        max-width: 100%;
     }
 }
 
 
-/* Tablet/iPad (481px - 1200px) */
+
 @media (min-width: 481px) and (max-width: 1200px) {
     .logo-konteyner, .baslik-paragraf {
         justify-content: center;
         text-align: center;
-        margin-right: 0; /* Tabletlerde de sağa hizalanmayı kaldırma */
+        margin-right: 0;
     }
     .dropdown {
         display: block;
         text-align: right;
-        margin: 5px; /* Çeyrek birim boşluk */
+        margin: 5px; 
     }
     .menu-konteyner {
         display: none;
     }
     img.responsive-img {
-        max-width: 100%; /* Tablet cihazlar için genişlik ayarı */
+        max-width: 100%;
     }
 }
 
@@ -216,36 +216,36 @@ img.responsive-img {
     .desktop-menu-konteyner {
         display: flex;
         justify-content: flex-end;
-        align-items: center; /* Dikey ortalama */
-        padding-right: 20px; /* Sağ tarafa iç boşluk ekleme */
+        align-items: center;
+        padding-right: 20px;
     }
     .ozel-jumbotron {
         width: 100%;
         margin-right: 0;
     }
     img.responsive-img {
-        max-width: 100%; /* Dizüstü cihazlar için genişlik ayarı */
-        height: auto; /* Yüksekliği otomatik ayarlama */
+        max-width: 100%;
+        height: auto;
     }
 }
 
 
 
-/* Masaüstü (1601px ve üzeri) */
+
 @media (min-width: 1601px) {
     .desktop-menu-konteyner {
         display: flex;
         justify-content: flex-end;
-        align-items: center; /* Dikey ortalama */
-        padding-right: 20px; /* Sağ tarafa iç boşluk ekleme */
+        align-items: center;
+        padding-right: 20px;
     }
     .ozel-jumbotron {
         width: 100%;
         margin-right: 0;
     }
     img.responsive-img {
-        max-width: 100%; /* Masaüstü cihazlar için genişlik ayarı */
-        height: auto; /* Yüksekliği otomatik ayarlama */
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -265,13 +265,13 @@ img.responsive-img {
     font-family: "Rubik Mono One", monospace;
     font-weight: 400;
     font-style: bold;
-  }
+}
 
-/* Harita Stil Ayarları */
+
 #map-container {
     position: relative;
     width: 100%;
-    height: 300px; /* Harita yüksekliği */
+    height: 300px; 
     margin-top: 20px;
 }
 
